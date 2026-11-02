@@ -1,17 +1,473 @@
-                     Vaibhav Organic Farms 
-               Fresh From Our Farm to your home
-       We focus on freshness, quality and careful cultivation
-                 Healthy. Natural. Farm Fresh.
-Explore our Products
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-•	Fresh Vegetables        
- 
-                                    
-•	Organic grains
- 
+    <title>Vaibhav Organic Farms | Fresh & Natural</title>
+
+    <meta name="description"
+          content="Vaibhav Organic Farms promotes natural farming and healthy living with fresh agricultural products.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7faf4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #164d2c;
+            color: white;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #b8e994;
+        }
+
+        /* HOME */
+
+        .hero {
+            min-height: 480px;
+            background: linear-gradient(
+                120deg,
+                #164d2c,
+                #4b8c45
+            );
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #d4ed91;
+            color: #164d2c;
+            padding: 13px 28px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        /* COMMON SECTION */
+
+        section {
+            padding: 65px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #206b38;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            max-width: 750px;
+            margin: auto;
+            color: #666;
+        }
+
+        /* ABOUT */
+
+        .about {
+            background: white;
+        }
+
+        /* PRODUCTS */
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .product-card {
+            background: white;
+            width: 240px;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-7px);
+        }
+
+        .product-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        .product-card h3 {
+            color: #206b38;
+            margin-bottom: 10px;
+        }
+
+        /* FARM */
+
+        .farm {
+            background: #e9f4e4;
+        }
+
+        .farm-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .farm-item {
+            width: 230px;
+            padding: 20px;
+        }
+
+        .farm-item h3 {
+            color: #206b38;
+            margin-bottom: 10px;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background: white;
+        }
+
+        .contact p {
+            margin: 12px 0;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #164d2c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* MOBILE RESPONSIVE */
+
+        @media (max-width: 650px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            section {
+                padding: 45px 6%;
+            }
+
+            .product-card {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🌿 Vaibhav Organic Farms
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#farm">Our Farm</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
 
 
+    <!-- HOME SECTION -->
 
-•	Natural products
- 
+    <section class="hero" id="home">
 
+        <div>
+
+            <h1>Welcome to Vaibhav Organic Farms</h1>
+
+            <p>
+                Fresh From Our Farm to Your Home
+            </p>
+
+            <p>
+                Healthy Living | Natural Farming | Fresh Products
+            </p>
+
+            <a href="#products" class="btn">
+                Explore Our Products
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+
+        <h2>About Us</h2>
+
+        <p class="description">
+
+            Welcome to Vaibhav Organic Farms.
+
+            We believe in natural farming, sustainable
+            agriculture and healthy living.
+
+            Our goal is to promote fresh agricultural
+            products and encourage environmentally
+            responsible farming practices.
+
+        </p>
+
+    </section>
+
+
+    <!-- PRODUCTS SECTION -->
+
+    <section id="products">
+
+        <h2>Our Organic Products</h2>
+
+        <p class="description">
+            Explore our range of agricultural products.
+        </p>
+
+        <div class="products">
+
+            <div class="product-card">
+
+                <div class="product-icon">🥬</div>
+
+                <h3>Fresh Vegetables</h3>
+
+                <p>
+                    Fresh seasonal vegetables
+                    for healthy meals.
+                </p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-icon">🍎</div>
+
+                <h3>Organic Fruits</h3>
+
+                <p>
+                    Seasonal fruits selected
+                    for freshness and quality.
+                </p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-icon">🌾</div>
+
+                <h3>Organic Grains</h3>
+
+                <p>
+                    Quality grains and
+                    agricultural products.
+                </p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-icon">🥜</div>
+
+                <h3>Organic Pulses</h3>
+
+                <p>
+                    Quality pulses for
+                    everyday cooking.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FARM SECTION -->
+
+    <section class="farm" id="farm">
+
+        <h2>Our Farming Practices</h2>
+
+        <p class="description">
+
+            We believe in supporting sustainable
+            farming and protecting nature.
+
+        </p>
+
+        <div class="farm-items">
+
+            <div class="farm-item">
+
+                <h3>🌱 Natural Farming</h3>
+
+                <p>
+                    Promoting responsible
+                    agricultural practices.
+                </p>
+
+            </div>
+
+            <div class="farm-item">
+
+                <h3>💧 Water Conservation</h3>
+
+                <p>
+                    Encouraging efficient
+                    water usage in farming.
+                </p>
+
+            </div>
+
+            <div class="farm-item">
+
+                <h3>🌍 Eco Friendly</h3>
+
+                <p>
+                    Supporting a greener
+                    and healthier environment.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Interested in our agricultural products?
+        </p>
+
+        <p>
+            <strong>Website:</strong>
+            Vaibhav Organic Farms
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            Add your email address here
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Add your farm location here
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Vaibhav Organic Farms.
+            All Rights Reserved.
+        </p>
+
+        <p>
+            Fresh | Natural | Healthy
+        </p>
+
+    </footer>
+
+</body>
+</html>                   
